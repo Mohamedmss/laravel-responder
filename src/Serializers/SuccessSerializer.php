@@ -44,7 +44,7 @@ class SuccessSerializer extends ArraySerializer
      *
      * @return array
      */
-    public function null(): array
+    public function null(): ?array
     {
         return ['data' => null];
     }
